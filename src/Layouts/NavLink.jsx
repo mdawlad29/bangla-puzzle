@@ -84,7 +84,7 @@ const NavLink = () => {
           </h1>
           {link.submenu && (
             <div>
-              <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
+              <div className="absolute top-16 hidden group-hover:md:block hover:md:block">
                 <div className="bg-gray-700 px-6 py-2 rounded-md">
                   {link.subLink?.map((mysublink, index) => (
                     <div key={index}>
@@ -108,7 +108,7 @@ const NavLink = () => {
                 {link.subLink?.map((slink, i) => (
                   <div key={i}>
                     {slink.mySubLink?.map((slink, i) => (
-                      <li key={i} className="py-2 pl-4">
+                      <li key={i} className="py-2 pl-6">
                         <Link to={slink.link} className="hover:text-primary">
                           {slink?.name}
                         </Link>

@@ -8,7 +8,6 @@ import Initiatives from "../Components/Initiatives/Initiatives";
 import Inspiration from "../Components/Inspiration/Inspiration";
 import Gallery from "../Components/Gallery/Gallery";
 import PhotoGallery from "../Components/PhotoGallery/PhotoGallery";
-import MediaConverage from "../Components/MediaConverage/MediaConverage";
 import ContactPage from "./contact";
 
 const Home = () => {
@@ -23,7 +22,6 @@ const Home = () => {
       <Initiatives />
       <Gallery />
       <PhotoGallery />
-      <MediaConverage />
       <ContactPage />
       <div className="bg-primary w-12 h-12 flex justify-center items-center rounded-full fixed bottom-7 right-7">
         <RiMessageFill className="text-2xl" />

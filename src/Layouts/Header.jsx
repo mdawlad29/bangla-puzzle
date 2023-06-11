@@ -9,13 +9,13 @@ const Header = () => {
 
   return (
     <>
-      <nav className="bg-secondary text-neutral py-6 fixed top-0 right-0 z-50 left-0 shadow-lg">
+      <nav className="bg-secondary text-neutral fixed top-0 right-0 z-50 left-0 shadow-lg">
         <div className="flex items-center font-medium justify-between md:mx-16">
           {/*------ Logo ------*/}
-          <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+          <div className="z-50 p-5 md:w-auto w-full flex justify-between items-center">
             <Link to="/">
               <img
-                className="md:cursor-pointer w-40"
+                className="md:cursor-pointer w-36"
                 src="https://deshcareer.com/logo/short-logo.png"
                 alt="logo"
               />
@@ -36,7 +36,7 @@ const Header = () => {
           </ul>
           {/* Mobile nav */}
           <ul
-            className={`md:hidden bg-secondary absolute w-full md:w-80 top-0 left-0 py-16 pl-4 duration-700 ${
+            className={`md:hidden bg-secondary absolute w-full md:w-80 top-0 left-0 py-20 pl-4 duration-700 ${
               open ? "translate-x-0" : "-translate-x-full"
             }`}
           >
